@@ -35,5 +35,10 @@
             </div>
         </nav>
         <div id="main" style="position: fixed; top: 50%; left: 50%; display: none; font-size: xx-large;">jQuery</div>
+        <script>
+            $("#main").click(function(){
+                $(this).animate(screenLeft, 1000);
+            })
+        </script>
     </body>
 </html>
